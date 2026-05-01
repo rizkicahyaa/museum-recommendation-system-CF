@@ -14,9 +14,9 @@
                 <a class="nav-link" href="review.php">
                     <i class="fas fa-edit me-1"></i>Review
                 </a>
-                <a class="nav-link" href="evaluasi.php">
+                <!-- <a class="nav-link" href="evaluasi.php">
                     <i class="fas fa-chart-bar me-1"></i>Evaluasi
-                </a>
+                </a> -->
                 <?php if (isset($_SESSION['user_name'])): ?>
                     <a class="nav-link" href="recommendations.php">
                         <i class="fas fa-star me-1"></i>Rekomendasi
